@@ -24,9 +24,9 @@ graph TD
 
     %% API Layer
     subgraph Backend [FastAPI Backend]
-        API_Chat[/api/chat POST]
-        API_Upload[/api/upload POST]
-        API_Sessions[/api/sessions GET, DELETE]
+        API_Chat["/api/chat POST"]
+        API_Upload["/api/upload POST"]
+        API_Sessions["/api/sessions GET, DELETE"]
         DB[(SQLite Database)]
     end
 
